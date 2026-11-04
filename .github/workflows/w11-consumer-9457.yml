@@ -48,7 +48,7 @@ jobs:
             if not errorlevel 1 (
               move "%%f" output\
               cd output
-              7z a -v1900m -mx=0 "w11-consumer-6060.7z" "%%f"
+              7z a -v1900m -mx=0 "w11-consumer-9457.7z" "%%f"
               del "%%f"
               cd ..
             )
